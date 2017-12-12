@@ -1,0 +1,51 @@
+.special::first-letter{
+	font-size:150%;
+	font-family:cursive;
+
+}
+.special{
+	font-size:150%;
+	font-family:cursive;
+}
+
+
+.navbar{
+	position: sticky;
+	width:100%;
+}
+.panel-lblue >.panel-heading{
+	border-color: #00BCFE;
+	color: #FFFFFF;
+	background-color: #00BCFE;
+}
+
+.panel-lblue{
+	border-color:#00BCFE;
+}
+
+.relative{
+	position: relative;
+	top:35px;
+}
+
+.space{
+	position: relative;
+	top: 20px;
+	color: #4A5254;
+}
+
+.relative:after {
+	content: '';
+	display: block;		
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: red;
+	transition: width .2s linear;
+}
+
+.relative:hover:after {
+	width: 50%;
+	background: red;
+}
+
