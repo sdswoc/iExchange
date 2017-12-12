@@ -10,7 +10,7 @@
 
 
 .navbar{
-	position: sticky;
+	position: fixed;
 	width:100%;
 }
 .panel-lblue >.panel-heading{
@@ -18,7 +18,26 @@
 	color: #FFFFFF;
 	background-color: #00BCFE;
 }
-
+.maintain{
+	position: relative;
+	top:145px;
+}
+.stick{
+	position: fixed;
+	width:100%;
+	z-index: 100;
+	background-color: white;
+}
+#ht:hover{
+	transition: 1.5s;
+	color:white;
+	background-color: black;
+}
+.page-header{
+    padding-bottom: 9px;
+    margin: 67px 0 20px;
+    border-bottom: 1px solid #eee;
+}
 .panel-lblue{
 	border-color:#00BCFE;
 }
